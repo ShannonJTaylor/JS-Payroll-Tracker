@@ -64,7 +64,7 @@ const collectEmployees = function () {
 const displayAverageSalary = function (employeesArray) {
   // TODO: Calculate and display the average salary//IS THIS CORRECT?!
   const AverageSalary = getAverageSalary(employeesArray);
-  console.log(`The average employee salary between our ${employeesArray.length} employees is $${AverageSalary.toFixed(2)}`);
+  console.log(`The average employee salary between our ${employeesArray.length} employee(s) is $${AverageSalary.toFixed(2)}`);
   
 };
   
